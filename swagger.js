@@ -6,7 +6,7 @@ const doc = {
     title: 'My API',
     description: 'Disc Golf API'
   },
-  host: 'https://personalassignment06.onrender.com',
+  host: 'personalassignment06.onrender.com',
   schemes: ['https']
 };
 

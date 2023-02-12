@@ -4,9 +4,9 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'Disc Golf API'
   },
-  host: 'personalassignment04.onrender.com',
+  host: 'localhost:8080/Disc_Golf',
   schemes: ['https']
 };
 

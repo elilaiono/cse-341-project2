@@ -24,5 +24,5 @@ const savePlayer = (req, res, next) => {
 };
 
 module.exports = {
-  saveContact: savePlayer
+  savePlayer: savePlayer
 };

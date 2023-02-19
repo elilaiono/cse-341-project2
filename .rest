@@ -10,29 +10,28 @@ POST http://localhost:8080/Disc_Golf HTTP/1.1
 content-type: application/json
 
  {
-      "firstName": "Boddy",
-      "lastName": "Shmurda",
+      "firstName": "Two",
+      "lastName": "Chainz",
       "expLvl": "Beginner",
-      "favCourse": "The Streets",
-      "favDisc": "Jail",
+      "favCourse": "The Sheets",
+      "favDisc": "The TeeBird",
       "throwStyle": "Hood",
-      "longestShot": "84m"
+      "longestShot": "88m"
 }
 
 ### PUT contact
-PUT http://localhost:8080/Disc_Golf/63ccbfef73367df2405853ea HTTP/1.1
+PUT http://localhost:8080/Disc_Golf/63e85db8018e889b240094f6 HTTP/1.1
 content-type: application/json
 
-#  {
-#       "firstName": "Brandon",
-#       "lastName": "Jones",
-#       "expLvl": "Beginner",
-#       "favCourse": "Washington Park",
-#       "favDisc": "The Destroyer",
-#       "throwStyle": "forehand",
-#       "longestShot": "95m"
-#     }
-
+{
+      "firstName": "Two",
+      "lastName": "Chainz",
+      "expLvl": "Advanced",
+      "favCourse": "The Sheets",
+      "favDisc": "The TeeBird",
+      "throwStyle": "Hood",
+      "longestShot": "88m"
+}
 ### DELETE contact
-DELETE http:localhost:8080/Disc_Golf/ HTTP/1.1
+DELETE http://localhost:8080/Disc_Golf/63e85db8018e889b240094f6 HTTP/1.1
 

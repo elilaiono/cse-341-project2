@@ -1,0 +1,27 @@
++-----------------+            +------------------------+            +------------------------+            +------------------------+
+|    Main Class   |            |     Activity Class      |            |    Breathing Class      |            |    Reflection Class     |
++-----------------+            +------------------------+            +------------------------+            +------------------------+
+|                 |            |    -activityName:string |            |    -breathingDuration:int|            |   -reflectionDuration:int|
+|                 |            |    -activityDesc:string |            |                        |            |                        |
+|                 |            |    -activityDuration:int|            |                        |            |                        |
+|                 |            |                        |            |                        |            |                        |
+| + StartProgram()|<>----------| + ShowDescription()     |<>----------| + ShowInstructions()    |<>----------| + ShowPrompts()         |
+| + ShowMenu()    |            | + SetDuration()         |            | + ShowCountdown()       |            | + ShowQuestions()       |
+| + RunActivity() |<>----------| + ShowStartingMessage() |            | + ShowBreathMessage()   |            |                        |
+|                 |            | + ShowEndingMessage()   |<>----------| + ShowBreathingSteps()  |            |                        |
+|                 |            |                        |            | + ShowCountdown()       |            |                        |
+|                 |            |                        |            | + ShowEndingMessage()   |<>----------| + ShowEndingMessage()   |
++-----------------+            +------------------------+            +------------------------+            +------------------------+
+                                                                    |                        |
+                                                                    |                        |
+                                                                    | + ListClass             |
+                                                                    | + ShowDescription()     |
+                                                                    | + SetDuration()         |
+                                                                    | + ShowStartingMessage() |
+                                                                    | + ShowEndingMessage()   |
+                                                                    | + ShowPrompt()          |
+                                                                    | + ShowCountdown()       |
+                                                                    | + ListItems()           |
+                                                                    | + ShowItemCount()       |
+                                                                    +------------------------+
+

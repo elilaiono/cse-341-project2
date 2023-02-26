@@ -5,7 +5,7 @@
     "description": "Players API",
     "version": "1.0.0"
   },
-  "host": "personalassignment06.onrender.com",
+  "host": "cse341-code-elijah-aiono.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"

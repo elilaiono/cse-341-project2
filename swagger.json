@@ -11,7 +11,7 @@
     "https"
   ],
   "paths": {
-    "/player_info/": {
+    "/Disc_Golf/": {
       "get": {
         "description": "",
         "produces": [
@@ -68,7 +68,7 @@
         }
       }
     },
-    "/player_info/{id}": {
+    "/Disc_Golf/{id}": {
       "get": {
         "description": "",
         "produces": [
